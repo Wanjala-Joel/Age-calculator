@@ -1,0 +1,37 @@
+body{
+    background:url('bac.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+    font-size: 22px;
+    font-family: cambria;
+}
+.container-center{
+    background:teal;
+    color: #fff;
+    padding: 25px;
+    margin:10% 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+.head-wrapper h2{
+    text-transform: capitalize;
+}
+button{
+    margin-top: 15px;
+    border: none;
+    background: rgb(230, 20, 90);
+    color: #fff;
+    padding: 6px 13px;
+    font-size: 16px;
+}
+
+@media (max-width: 700px){
+    body{
+        font-size: 18px;
+    }
+    .container-center{
+        padding: 25px;
+        margin:10% 10%;
+    }
+}
